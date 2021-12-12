@@ -79,7 +79,8 @@ header ul {
 .header-contacts .item svg {
   margin-right: 10px;
 }
-.header-contacts .item:hover {
+.header-contacts .item:hover,
+.header-contacts .item:focus {
   fill: var(--hover-color);
 }
 .nav {
@@ -203,14 +204,13 @@ a:active {
   display: flex;
 }
 .value-icon {
+  width: 270px;
+  height: 120px;
   background-color: #f5f4fa;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-bottom: 30px;
-  border-radius: 4px;
 }
 .values > li {
   width: 270px;
@@ -289,9 +289,13 @@ a:active {
   box-shadow: none;
   fill: #afb1b8;
 }
-.team-contacts li:hover {
+.team-contacts li:hover,
+.team-contacts-icon:focus {
   fill: var(--body-background);
   background-color: var(--hover-color);
+}
+.team-contacts-icon:not(:last-child) {
+  margin-right: 10px;
 }
 .our-team p {
   font-family: Roboto;
@@ -329,18 +333,17 @@ a:active {
 .loyal-clients ul {
   display: flex;
 }
-.loyal-clients li div:hover {
+.clients-icons li a:hover,
+.clients-icons li a:focus {
   fill: var(--hover-color);
   border-color: var(--hover-color);
 }
 .loyal-clients .client-icon {
+  width: 170px;
+  height: 92px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 32px;
-  padding-left: 32px;
 
   border-radius: 4px;
   fill: #afb1b8;
