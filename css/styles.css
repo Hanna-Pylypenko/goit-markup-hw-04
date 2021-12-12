@@ -114,6 +114,7 @@ a:hover,
 a:focus,
 a:active {
   color: var(--hover-color);
+  cursor: pointer;
 }
 .logo {
   font-family: Raleway;
