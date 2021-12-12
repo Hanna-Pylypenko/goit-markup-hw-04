@@ -129,11 +129,16 @@ a:active {
   margin-left: 50px;
 }
 .service-ordering {
-  background: var(--section-background);
   padding-top: 200px;
   padding-bottom: 200px;
   letter-spacing: 0.06em;
   text-align: center;
+
+  background-image: linear-gradient(#2f303a66 40%),
+    url(../images/background-image.jpg);
+  max-width: 1600px;
+  background-size: cover;
+  background-position: center;
 }
 .service-ordering-title {
   font-size: 44px;
@@ -176,6 +181,16 @@ a:active {
 }
 .our-values ul {
   display: flex;
+}
+.value-icon {
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+  border-radius: 4px;
 }
 .values > li {
   width: 270px;
@@ -256,6 +271,37 @@ a:active {
 }
 .team-members h3 {
   margin-bottom: 10px;
+}
+.loyal-clients h2 {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--headline-color);
+  margin-bottom: 50px;
+}
+.loyal-clients ul {
+  display: flex;
+}
+.client-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+
+  border-radius: 4px;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  margin-right: 30px;
+}
+.loyal-clients li:last-child {
+  margin-right: 0;
 }
 
 footer {
