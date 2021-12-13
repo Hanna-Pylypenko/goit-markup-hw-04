@@ -281,14 +281,8 @@ a:active {
   padding-right: 32px;
 }
 .team-contacts li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
   box-shadow: none;
-  fill: #afb1b8;
+  border: none;
 }
 .team-contacts a {
   display: flex;
