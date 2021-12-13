@@ -290,8 +290,18 @@ a:active {
   box-shadow: none;
   fill: #afb1b8;
 }
-.team-contacts li:hover,
-.team-contacts-icon:focus {
+.team-contacts a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  box-shadow: none;
+  fill: #afb1b8;
+}
+.team-contacts a:hover,
+.team-contacts a:focus {
   fill: var(--body-background);
   background-color: var(--hover-color);
 }
